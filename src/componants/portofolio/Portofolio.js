@@ -5,8 +5,6 @@ import { data } from "../../Data";
 import { Link } from "react-router-dom";
 
 function Portofolio() {
-  // const imgTest = data.image;
-  console.log(data);
   return (
     <section id="projectes">
       <div className="head-section">
