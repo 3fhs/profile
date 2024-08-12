@@ -1,0 +1,19 @@
+footer {
+  background-color: rgb(30, 30, 30);
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  text-align: center;
+}
+footer span {
+  padding: 0 10px;
+  color: #00bfff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
