@@ -10,8 +10,10 @@ function Portofolio() {
       <div className="head-section">
         <h2>My Projects</h2>
         <p>
-          I created this website as my portfolio. I used React.js, JSX, React
-          FontAwesome, CSS, EmailJS, and React Scroll.
+          I created this website as my portfolio to showcase some projects I've
+          worked on using the skills I've learned. Every day, I'm learning
+          something new to improve the quality of my work and provide better
+          service.
         </p>
       </div>
       <div className="port-cart">

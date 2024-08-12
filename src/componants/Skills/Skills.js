@@ -36,8 +36,7 @@ function Skills() {
         <div className="card">
           <div className="cart-text">
             <img src={js} alt="it is skills" />
-
-            <h3>Java Script</h3>
+            <h3>JavaScript</h3>
           </div>
           <p>JavaScript Can Change HTML Styles (CSS)</p>
         </div>
