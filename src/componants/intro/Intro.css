@@ -1,35 +1,28 @@
 #intro {
-  height: calc(100vh - 80px);
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(
-    180deg,
-    #000 10%,
-    gray 30%,
-    white 40%,
-    red 80%,
-    blue 100%
-  );
-}
-.bg-head {
-  width: 100%;
+  background-image: url(../../image/Black\ and\ Gold\ Luxury\ Quotes\ on\ Desktop\ Wallpaper.png);
+  padding: 50px 30px 50px;
 }
 .intro-conainer {
-  height: 100vh;
-  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: capitalize;
-  color: black;
-  position: absolute;
-  background-color: #e7e2dcbd;
-  text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+}
+.logo-head {
+  animation: rotate 10s linear infinite;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* البداية */
+  }
+  to {
+    transform: rotate(360deg); /* النهاية */
+  }
 }
 .intro-info {
   max-width: 700px;
@@ -39,6 +32,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 .hello {
   font-weight: normal;
@@ -66,19 +60,11 @@
   font-weight: 500;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #ededed;
 }
 .bag {
   width: 35px;
   height: 35px;
-}
-.my-photo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  object-fit: cover;
-  height: 100vh;
-  border-radius: 20%;
 }
 @media (max-width: 930px) {
   .intro-conainer {
@@ -88,7 +74,7 @@
     margin: 0 auto;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .intro-conainer {
     text-align: center;
   }

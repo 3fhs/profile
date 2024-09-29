@@ -1,14 +1,12 @@
 import React from "react";
-import web from "../../image/WebDesigner.jpg";
 import "./About.css";
 import "../Skills/Skills.css";
+import Title from "../title-head/Title";
 
 function About() {
   return (
     <section id="about">
-      <div className="head-section">
-        <h2>About Us</h2>
-      </div>
+      <Title title="About me" discrep=""/>
       <div className="about-count">
         <div className="about-info">
           <h3>
@@ -31,31 +29,6 @@ function About() {
             This version highlights your skills, the types of projects you've
             worked on, and your commitment to quality.
           </p>
-        </div>
-        <div className="about-cart">
-          <img src={web} alt="web" style={{ width: "100%" }} />
-          <div className="cart-skills">
-            <div className="ex">
-              <div className="cart">
-                <h3>1</h3>
-                <p>years experience</p>
-              </div>
-              <div className="cart">
-                <h3>23</h3>
-                <p>Project challenge</p>
-              </div>
-            </div>
-            <div className="ex">
-              <div className="cart">
-                <h3>500 +</h3>
-                <p>positive reviews</p>
-              </div>
-              <div className="cart">
-                <h3> 10 </h3>
-                <p>trusted students</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

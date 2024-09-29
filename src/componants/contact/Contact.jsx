@@ -11,6 +11,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import emailjs from "@emailjs/browser";
+import Title from "../title-head/Title";
 
 const Contact = () => {
   const form = useRef();
@@ -43,17 +44,13 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact-cont">
-      <div className="head-section">
-        <h2>Contact</h2>
-        <p>
-          You can get in touch with me by sending a message using the form
+    <section id="contact">
+      <Title title="Contact me" discrep="You can get in touch with me by sending a message using the form
           below. Please fill in your details and write your message, and I will
           receive it via email. Alternatively, you can contact me through one of
-          the links below. Thank you!
-        </p>
-      </div>
-      <div id="contact">
+          the links below. Thank you!"
+      />
+      <div className="contact-me" >
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <input
             type="text"

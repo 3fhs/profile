@@ -4,19 +4,17 @@ import html from "../../image/html.png";
 import css from "../../image/css.webp";
 import js from "../../image/javascript.webp";
 import bootstrap from "../../image/bootstrap.png";
+import tailwind from "../../image/tailwind.png";
 import react from "../../image/react.png";
+import Title from "../title-head/Title";
 
 function Skills() {
   return (
     <section id="skills">
-      <div className="head-section">
-        <h2>Skills</h2>
-        <p>
-          I can design the interface of websites. I have learned a lot of skills
+      <Title title="my skills" discrep="I can design the interface of websites. I have learned a lot of skills
           and I am still learning until I gain a lot of experience, and these
-          are some of the skills
-        </p>
-      </div>
+          are some of the skills"
+      />
       <div className="section-content">
         <div className="card">
           <div className="cart-text">
@@ -58,6 +56,15 @@ function Skills() {
             Bootstrap is a free front-end framework for faster and easier web
             development
           </p>
+        </div>
+        <div className="card">
+          <div className="cart-text">
+            <img src={tailwind} alt="it is skills" />
+
+            <h3>Tailwind</h3>
+          </div>
+          <p>
+            Tailwind CSS is a utility-first CSS framework that allows developers to style applications quickly by using pre-built classes directly in HTML.          </p>
         </div>
       </div>
     </section>

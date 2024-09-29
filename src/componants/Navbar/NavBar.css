@@ -1,45 +1,44 @@
 .navbar {
-  width: 100%;
-  height: 80px;
-  background-color: #1e1e1e;
-}
-.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 120px;
   width: 100%;
-  position: fixed;
-  z-index: 3;
   background-color: rgb(30, 30, 30);
-  border-radius: 0 0 60px 60px;
   padding: 10px 30px;
 }
 .logo {
-  border-radius: 5px 50% 50% 5px;
-  height: 3rem;
-  width: 4rem;
-  background-color: #2a8180;
-  border: 4px solid #fff;
+  border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 10px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navmenu {
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
+  justify-content: space-evenly;
+  gap: 20px;
 }
-
 .navmenu .menu {
-  margin: 1rem;
   cursor: pointer;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 22px;
   transition: 0.3s;
+  color: white;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid transparent;
+  padding: 10px;
+  text-shadow: 0 0 10px white;
 }
 .menu:hover {
-  color: #00fffd;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid #00fffd;
+  color: #435b9f;
+  border-bottom: 3px solid #435b9f;
+  text-shadow: 0 0 10px gold;
 }
 .navbuttom {
   color: black;
@@ -63,42 +62,54 @@
   padding-bottom: 0.5rem;
   border-bottom: 3px solid var(--main-color);
 }
-/*small screen */
-.icon-menu {
+.bi-list , .bi-x-lg {
   display: none;
-  font-size: 35px;
-  cursor: pointer;
 }
-.small-navmenu {
-  position: absolute;
-  top: 79px;
-  right: 0;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-  height: fit-content;
-  max-width: 100%;
-  background-color: rgb(40, 40, 40);
-  border-radius: 0px 60px 0px 60px;
-}
-.small-navmenu .small-menu {
-  color: white;
-  padding: 0.5rem 3rem;
-  margin: 0.25rem;
-  background-color: rgb(30, 30, 30);
-  cursor: pointer;
-  border-radius: 0px 60px 0px 60px;
-  text-align: center;
-}
+/*small screen */
 @media (max-width: 767px) {
-  .navmenu {
-    display: none;
+  .navbar {
+    position: relative;
+    z-index: 20;
   }
   .navbuttom {
     display: none;
   }
-  .icon-menu {
+  .bi-list , .bi-x-lg {
     display: block;
+        position: absolute;
+        right: 30px;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
   }
+  .navmenu {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        position: absolute;
+        background: #827859;
+        width: 100%;
+        z-index: 10000;
+        top: 120px;
+        left: 0;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+  }
+  .navmenu .menu {
+    width: 100%;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: 0.3s;
+    color: white;
+    border-bottom: 3px solid transparent;
+    background-color: #000000;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.menu:hover:not(:last-child) {
+  color: #435b9f;
+  border-bottom: 3px solid #435b9f;
+}
 }
