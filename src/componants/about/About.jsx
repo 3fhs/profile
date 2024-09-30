@@ -25,10 +25,6 @@ function About() {
             reach out to discuss your next web development project. You can
             contact me anytime.
           </p>
-          <p>
-            This version highlights your skills, the types of projects you've
-            worked on, and your commitment to quality.
-          </p>
         </div>
       </div>
     </section>

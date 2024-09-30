@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     gap: 3px;
-    background: #338ecb;
     flex-direction: row-reverse;
 }
 .pagination .page {

@@ -1,3 +1,8 @@
+#contact {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-bottom: 10px;
+}
 .contact-me {
   display: flex;
     flex-direction: column;
@@ -20,7 +25,7 @@
   margin: 0.5rem;
   padding: 0.5rem 1rem;
   color: white;
-  border: 2px solid transparent;
+  border: 2px solid #9999;
   border-radius: 0.5rem;
   background-color: rgb(40, 40, 40);
   outline: none;
@@ -28,10 +33,10 @@
   height: 50px;
 }
 .input-text:focus {
-  border: 2px solid #00bfff;
+  border: 2px solid #435b9f;
 }
 .submit {
-  background-color: #00bfff;
+  background-color: #123456;
   border: none;
   border-radius: 0.5rem;
   margin: 2rem;
@@ -41,10 +46,11 @@
   cursor: pointer;
   transition: 0.3s;
   text-transform: capitalize;
+  color: white;
 }
 .submit:hover {
-  background-color: #00bfffb4;
-  color: #fff;
+  background-color: #456;
+  color: #000000;
 }
 .icons {
   display: flex;
@@ -62,7 +68,25 @@
   padding: 5px;
   transition: 0.3s;
 }
-.icons .icon:hover {
-  color: #fff;
-  background-color: #00bfff;
+.icons .face:hover {
+  color: white;
+  background-color: blue;
+}
+.icons .linked:hover {
+  color: blue;
+  background-color: white;
+}
+.icons .git:hover {
+  color: #000000;
+  background-color: white;
+}
+.icons .what:hover {
+  color: green;
+  background-color: white;
+}
+@media (max-width: 750px) {
+  .input-text {
+    width: auto;
+    min-width: 300px;
+  }
 }

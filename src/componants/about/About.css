@@ -1,5 +1,5 @@
 .about-count {
-  display: flex;
+    display: flex;
     padding: 30px 0;
     max-width: 900px;
     text-align: center;
@@ -16,7 +16,7 @@
 }
 .about-info p {
   font-size: 20px;
-  color: #999;
+  color: #ededed;
   text-transform: capitalize;
   padding: 20px;
 }

@@ -81,28 +81,28 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faFacebook} className="icon" />
+            <FontAwesomeIcon icon={faFacebook} className="icon face" />
           </a>
           <a
             href="https://www.linkedin.com/in/mohamed-abd-elghany-b6b74a281"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} className="icon" />
+            <FontAwesomeIcon icon={faLinkedin} className="icon linked" />
           </a>
           <a
             href="https://github.com/3fhs"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} className="icon" />
+            <FontAwesomeIcon icon={faGithub} className="icon git" />
           </a>
           <a
             href="https://wa.me/01023853105"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faWhatsapp} className="icon" />
+            <FontAwesomeIcon icon={faWhatsapp} className="icon what" />
           </a>
         </div>
       </div>
