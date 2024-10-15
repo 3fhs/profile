@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Portofolio.css";
 import "../Skills/Skills.css";
 import { Link } from "react-router-dom";
 import Title from "../title-head/Title";
 import Pagination from "../pagenation/Pagination";
 import { data } from "../../Data";
+import Aos from "aos";
 
 function Portofolio() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once: false,
+    })
+  },[])
 
     const [pageNumber, setPageNumber] = useState(1);
     const currentPage = 3;
@@ -18,8 +26,8 @@ function Portofolio() {
     const wepSite = data.slice(startPage, endPage); // بقوله هاتلى الداتا دى من اول هنا لحد اخرك هنا 
 
   return (
-    <section id="projectes">
-      <Title title="my projects" discrep="I created this website as my portfolio to showcase some projects I've
+    <section className="sectiony" id="projectes">
+      <Title title="projects" discrep="I created this website as my portfolio to showcase some projects I've
           worked on using the skills I've learned. Every day, I'm learning
           something new to improve the quality of my work and provide better
           service." 
@@ -31,6 +39,7 @@ function Portofolio() {
             target="_blank"
             className="cart"
             key={item.id}
+            data-aos="fade-dwon"
           >
             <img src={item.image} alt={item.title} />
             <div className="cart-inf">

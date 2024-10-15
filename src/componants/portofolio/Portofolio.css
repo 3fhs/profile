@@ -1,3 +1,6 @@
+#projectes {
+  position: relative;
+}
 .port-cart {
     width: 100%;
     display: flex;
@@ -7,16 +10,15 @@
     flex-wrap: wrap;
 }
 .port-cart .cart {
-    position: relative;
-    overflow: hidden;
-    border: 2px solid #666;
-    border-radius: 8px;
-    box-shadow: 0px 0 2px 3px #9997;
-    cursor: pointer;
-    transition: 0.3s;
-    max-width: 325px;
-    background: #ffffff;
-    transform: scale(0.9);
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 0 2px #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  max-width: 325px;
+  background: #ffffff;
+  transform: scale(0.9);
 }
 .port-cart .cart:hover {
   filter: grayscale(1);
@@ -24,26 +26,26 @@
 }
 .port-cart .cart img {
   width: 100%;
-  height: 350px;
+  height: 190px;
   border-radius: 8px;
   cursor: pointer;
-  object-fit: fill;
+  object-fit: cover;
 }
 .cart .cart-inf {
   background-color: #fff;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .cart .cart-inf h3 {
-  font-size: 20px;
-  padding-bottom: 20px;
+  font-size: 18px;
+  padding-bottom: 5px;
   font-weight: bold;
-  color: #5dd4fd;
+  color: #977;
   text-transform: capitalize;
 }
 .cart .cart-inf p {
-  color: #999;
+  color: #799;
   font-size: 16px;
   text-transform: capitalize;
 }

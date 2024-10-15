@@ -6,6 +6,13 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    text-shadow: 
+    1px 1px 0 #000,  /* تحديد حدود يمين وأسفل */
+    -1px 1px 0 #000, /* تحديد حدود يسار وأسفل */
+    1px -1px 0 #000, /* تحديد حدود يمين وأعلى */
+    -1px -1px 0 #000; /* تحديد حدود يسار وأعلى */
+    letter-spacing: 1px;
+    line-height: 1.6;
 }
 .about-info h3 {
   font-size: 50px;
@@ -14,11 +21,23 @@
   margin-bottom: 20px;
   text-align: center;
 }
-.about-info p {
+.about-info-p {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.about-info-p p {
+  max-width: 400px;
   font-size: 20px;
   color: #ededed;
   text-transform: capitalize;
   padding: 20px;
+  border: 2px solid #1119;
+  backdrop-filter: blur(25px);
+  border-radius: 8px;
+  border-bottom: 2px solid #ededed;
 }
 
 .about-count .about-cart {

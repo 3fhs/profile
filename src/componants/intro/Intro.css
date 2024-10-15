@@ -1,15 +1,8 @@
-#intro {
-  background-image: url(../../image/Black\ and\ Gold\ Luxury\ Quotes\ on\ Desktop\ Wallpaper.png);
-  padding: 50px 30px 50px;
-  box-shadow: none;
-  margin: 0;
-}
 .intro-conainer {
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
-    color: black;
     text-align: center;
 }
 .logo-head {
@@ -17,27 +10,53 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin: 20px;
+    border: 2px solid #111;
 }
 @keyframes rotate {
-  from {
+  0% {
     transform: rotate(0deg); /* البداية */
   }
-  to {
-    transform: rotate(360deg); /* النهاية */
+  25% {
+    transform: rotate(45deg); /* النهاية */
+  }
+  50% {
+    transform: rotate(0deg); /* النهاية */
+  }
+  75% {
+    transform: rotate(-45deg); /* النهاية */
+  }
+  100% {
+    transform: rotate(0deg); /* النهاية */
   }
 }
 .intro-info {
+  color: white; /* لون النص */
+  text-shadow: 
+    2px 2px 0 black,  /* تحديد حدود يمين وأسفل */
+    -2px 2px 0 black, /* تحديد حدود يسار وأسفل */
+    2px -2px 0 black, /* تحديد حدود يمين وأعلى */
+    -2px -2px 0 black; /* تحديد حدود يسار وأعلى */
+  font-size: 50px; /* حجم النص */
+  font-weight: bold; /* عرض النص */
   max-width: 700px;
-  padding: 2rem;
-  font-size: 3rem;
-  font-weight: 700;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+}
+.rotate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: transparent;
+  margin: 10px 0;
+  position: relative;
+  padding: 10px 10px;
+  flex-wrap: wrap;
 }
 .hello {
-  font-weight: normal;
+  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
+  font-weight: bold;
   font-size: 35px;
 }
 .intro-conainer .btn {
@@ -48,13 +67,20 @@
   font-size: 20px;
   text-transform: capitalize;
   padding: 5px 10px;
-  border-radius: 2rem;
+  border-radius: 60px;
   cursor: pointer;
   gap: 10px;
   margin-top: 20px;
+  min-width: 200px;
+  justify-content: space-around;
+}
+.intro-text {
+  max-width: 400px;
 }
 .intro-text .name {
-  color: #435b9f;
+    color: #435b9f;
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 .intro-p {
   font-size: 20px;

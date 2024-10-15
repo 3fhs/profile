@@ -5,6 +5,12 @@ import product from "./photo/e-commerce/headersoq.PNG";
 import book from "./photo/bookstorexclone/headerbook.PNG";
 import system from "./photo/system/system.PNG";
 import safari from "./photo/safarixclone/safari.PNG";
+import dash from "./image/dashboard.png";
+import lawyer from "./photo/lawyer/lawyer.png";
+import injoy from "./photo/injoy-wep/injoy.png";
+import report from "./photo/report/reporter.png";
+import azan from "./photo/azan/azan.png";
+import volcano from "./photo/volcano/volcano.png";
 
 export const data = [
   {
@@ -62,5 +68,53 @@ export const data = [
     title: "safari-web",
     use: "react js and some library",
     info: "I created this website using HTML, CSS, JavaScript, React.js, and other libraries. It consists of multiple sections to showcase some products.",
+  },
+  {
+    id: 8,
+    location: "https://dashxboard.netlify.app",
+    image: dash,
+    title: "Dash Board",
+    use: "html , css , javascript , react js , and some library",
+    info: "I created this website using react js, and other libraries . It consists of multiple sections to showcase some products.",
+  },
+  {
+    id: 9,
+    location: "https://mo-lawyer.netlify.app",
+    image: lawyer,
+    title: "Lawyer",
+    use: "html , css , javascript , react js , and some library",
+    info: "I created this website using react js, and other libraries . It consists of multiple sections to showcase some products.",
+  },
+  {
+    id: 10,
+    location: "https://in-joy.netlify.app",
+    image: injoy,
+    title: "IN-JOY",
+    use: "html , css , javascript , react js , and some library",
+    info: "I created this website using react js, and other libraries . It consists of multiple sections to showcase some products.",
+  },
+  {
+    id: 11,
+    location: "https://mo-note.netlify.app",
+    image: report,
+    title: "Note Book",
+    use: "html , css , javascript , react js , and some library",
+    info: "I created this website using react js, and other libraries . It consists of multiple sections to showcase some products.",
+  },
+  {
+    id: 12,
+    location: "https://azannow.netlify.app",
+    image: azan,
+    title: "AZAN",
+    use: "html , css , javascript , react js , and some library",
+    info: "I created this website using react js, and other libraries . It consists of multiple sections to showcase some products.",
+  },
+  {
+    id: 13,
+    location: "https://volcano-aca.netlify.app",
+    image: volcano,
+    title: "Acadimy Volcano",
+    use: "html , css , javascript , react js , and some library",
+    info: "I created this website using react js, and other libraries . It consists of multiple sections to showcase some products.",
   },
 ];

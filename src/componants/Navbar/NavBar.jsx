@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import folder from "../../image/folder.webp";
 import { Link } from "react-scroll";
-import logo from '../../image/mhdlogo.webp';
+import logo from '../../image/mohamedflogo.png';
 
 const NavBar = () => {
   const [openBurger, setOpenBurger] = useState(false);
@@ -18,7 +18,6 @@ const NavBar = () => {
             to="intro"
             spy={true}
             smooth={true}
-            offset={-100}
             duration={500}
             className="menu"
           >
@@ -29,7 +28,6 @@ const NavBar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-50}
             duration={500}
             className="menu"
           >
@@ -40,7 +38,6 @@ const NavBar = () => {
             to="skills"
             spy={true}
             smooth={true}
-            offset={-50}
             duration={500}
             className="menu"
           >
@@ -51,7 +48,6 @@ const NavBar = () => {
             to="projectes"
             spy={true}
             smooth={true}
-            offset={-50}
             duration={500}
             className="menu"
           >

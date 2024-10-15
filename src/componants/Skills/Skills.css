@@ -1,23 +1,46 @@
 .section-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-top: 2px solid #deee;
+  padding-top: 20px;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+.section-content::after ,
+.section-content::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 10px solid #deee;
+  top: 0;
+}
+.section-content::after {
+  right: 0;
+}
+.section-content::before {
+  left: 0;
 }
 .section-content .card {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(184 237 255);
-    padding: 10px 20px 20px;
-    border-radius: 12px;
-    flex-direction: column;
-    box-shadow: 0 0 10px white;
-    text-align: center;
-    color: #000000;
-    max-width: 400px;
-    line-height: 1.8;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(46px);
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  flex-direction: column;
+  box-shadow: 0 0 2px white;
+  text-align: center;
+  color: #deee;
+  max-width: 400px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  flex-grow: 1;
 }
 .card .cart-text {
   display: flex;

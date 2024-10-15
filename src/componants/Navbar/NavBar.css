@@ -4,8 +4,8 @@
   align-items: center;
   height: 120px;
   width: 100%;
-  background-color: rgb(30, 30, 30);
   padding: 10px 30px;
+  backdrop-filter: blur(40px);
 }
 .logo {
     border-radius: 50%;
@@ -32,13 +32,22 @@
   color: white;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid transparent;
-  padding: 10px;
-  text-shadow: 0 0 10px white;
+  font-weight: bold;
+  text-shadow: 
+  1px 1px 0 transparent,  /* تحديد حدود يمين وأسفل */
+  -1px 1px 0 transparent, /* تحديد حدود يسار وأسفل */
+  1px -1px 0 transparent, /* تحديد حدود يمين وأعلى */
+  -1px -1px 0 transparent; /* تحديد حدود يسار وأعلى */  padding: 10px;
 }
 .menu:hover {
-  color: #435b9f;
+  color: #111;
+  font-weight: bold;
   border-bottom: 3px solid #435b9f;
-  text-shadow: 0 0 10px gold;
+  text-shadow: 
+  1px 1px 0 #fff,  /* تحديد حدود يمين وأسفل */
+  -1px 1px 0 #fff, /* تحديد حدود يسار وأسفل */
+  1px -1px 0 #fff, /* تحديد حدود يمين وأعلى */
+  -1px -1px 0 #fff; /* تحديد حدود يسار وأعلى */
 }
 .navbuttom {
   color: black;
@@ -70,12 +79,13 @@
   .navbar {
     position: relative;
     z-index: 20;
-  }
+    backdrop-filter: blur(20px);
+}
   .navbuttom {
     display: none;
   }
   .bi-list , .bi-x-lg {
-    display: block;
+        display: block;
         position: absolute;
         right: 30px;
         font-size: 30px;
@@ -86,7 +96,7 @@
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         text-align: center;
         position: absolute;
-        width: 200px;
+        width: 100%;
         top: 120px;
         left: 0;
         transition: 0.5s;
@@ -94,9 +104,9 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 20px;
-        margin: 0 30px;
-        backdrop-filter: blur(10px);
+        padding: 10px;
+        background: #9999;
+        gap: 5px;
   }
   .navmenu .menu {
     width: 100%;
@@ -108,11 +118,11 @@
     border-bottom: 3px solid transparent;
     background-color: #000000;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
 }
-.menu:hover:not(:last-child) {
-  color: #435b9f;
-  border-bottom: 3px solid #435b9f;
-}
+  .menu:hover:not(:last-child) {
+    color: #435b9f;
+    border-bottom: 3px solid #435b9f;
+  }
 }
