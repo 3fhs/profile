@@ -35,7 +35,7 @@ function Skills() {
           <p>HTML stands for Hyper Text Markup Language</p>
         </div>
 
-        <div data-aos="fade-left" className="card">
+        <div className="card">
           <div className="cart-text">
             <img src={css} alt="it is skills" />
 
@@ -52,7 +52,7 @@ function Skills() {
           <p>JavaScript Can Change HTML Styles (CSS)</p>
         </div>
 
-        <div data-aos="fade-left" className="card">
+        <div className="card">
           <div className="cart-text">
             <img src={react} alt="it is skills" />
 
@@ -73,7 +73,7 @@ function Skills() {
           </p>
         </div>
 
-        <div data-aos="fade-left" className="card">
+        <div className="card">
           <div className="cart-text">
             <img src={tailwind} alt="it is skills" />
 
