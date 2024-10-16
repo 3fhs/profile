@@ -6,7 +6,7 @@ import logo from "../../image/mohamedflogo.png";
 const Intro = () => {
 
   const clickOpenPdf = () => {
-    const urlGoogleDrive = "https://drive.google.com/file/d/17WTjiWOzVaFlNvQjRecQDdPEaHtfY_Xk/view?usp=sharing";
+    const urlGoogleDrive = "https://drive.google.com/file/d/1C3FflWo6tYO1FI3PHHXpy9y5YaB6-VUi/view?usp=sharing";
     window.open(urlGoogleDrive, '_blank')
   }
 
