@@ -1,12 +1,12 @@
 import React from "react";
 import "./Intro.css";
 import bag from "../../image/bag.webp";
-import logo from "../../image/mohamedflogo.png";
+import me from "../../image/me.jpg";
 
 const Intro = () => {
 
   const clickOpenPdf = () => {
-    const urlGoogleDrive = "https://drive.google.com/file/d/1C3FflWo6tYO1FI3PHHXpy9y5YaB6-VUi/view?usp=sharing";
+    const urlGoogleDrive = "https://docs.google.com/document/d/1cJxT28Yb7Dcg9x26vlFGC8VAT8Q9qEutZmGWv-6At_c/edit?usp=sharing";
     window.open(urlGoogleDrive, '_blank')
   }
 
@@ -15,7 +15,7 @@ const Intro = () => {
       <div className="intro-conainer">
         <div className="intro-info">
           <div className="rotate">
-            <img src={logo} alt="my logo" className="logo-head"/>
+            <img src={me} alt="my logo" className="logo-head"/>
             <span className="intro-text">
               <span className="hello">hello there , </span>
               <span className="name">my name is Mohamed Abd elghany</span>

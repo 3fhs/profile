@@ -27,18 +27,19 @@ footer::after {
   position: relative;
   z-index: 1;
   padding: 10px;
-  color: #012;
+  color: #987;
   font-weight: bold;
-  text-shadow: 1px 1px 0 black, -1px 1px 0 #fff, 1px -1px 0 black, -1px -1px 0 #fff;
+  text-shadow: 1px 1px 0 black, -1px 1px 0 #000, 1px -1px 0 black, -1px -1px 0 #000;
   font-size: 20px;
   letter-spacing: 1px;
 }
 footer span {
   padding: 0 10px;
   font-size: 20px;
-  color: #123;
+  color: #9879;
   text-transform: capitalize;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 @media (max-width: 768px) {
   .footer-text {

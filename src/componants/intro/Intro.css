@@ -6,29 +6,11 @@
     text-align: center;
 }
 .logo-head {
-    animation: rotate 10s linear infinite;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin: 20px;
     border: 2px solid #111;
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg); /* البداية */
-  }
-  25% {
-    transform: rotate(45deg); /* النهاية */
-  }
-  50% {
-    transform: rotate(0deg); /* النهاية */
-  }
-  75% {
-    transform: rotate(-45deg); /* النهاية */
-  }
-  100% {
-    transform: rotate(0deg); /* النهاية */
-  }
 }
 .intro-info {
   color: white; /* لون النص */
@@ -78,7 +60,7 @@
   max-width: 400px;
 }
 .intro-text .name {
-    color: #435b9f;
+    color: #987;
     font-size: 35px;
     letter-spacing: 2px;
 }
