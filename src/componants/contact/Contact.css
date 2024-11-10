@@ -55,17 +55,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  margin: 10px;
+  gap: 10px;
+  margin: 5px;
+}
+.icons a {
+  width: 40px;
+  height: 40px;
+  position: relative;
 }
 .icons .icon {
-  font-size: 35px;
+  position: absolute;
+  font-size: 25px;
   color: #012;
   border-radius: 50%;
   background-color: #fff;
   border: 2px solid #ededed;
   padding: 5px;
   transition: 0.3s;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .icons .face:hover {
   color: white;

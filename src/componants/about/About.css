@@ -1,21 +1,18 @@
 .about-count {
-    display: flex;
-    padding: 30px 0;
-    max-width: 900px;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    text-shadow: 
-    1px 1px 0 #000,  /* تحديد حدود يمين وأسفل */
-    -1px 1px 0 #000, /* تحديد حدود يسار وأسفل */
-    1px -1px 0 #000, /* تحديد حدود يمين وأعلى */
-    -1px -1px 0 #000; /* تحديد حدود يسار وأعلى */
-    letter-spacing: 1px;
-    line-height: 1.6;
+  display: flex;
+  padding: 30px 0;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  letter-spacing: 1px;
+  line-height: 1.6;
 }
 .about-info h3 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: capitalize;
   margin-bottom: 20px;

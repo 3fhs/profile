@@ -3,13 +3,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Contact.css";
 import "../Skills/Skills.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faGithub,
-  faLinkedin,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
 import emailjs from "@emailjs/browser";
 import Title from "../title-head/Title";
 
@@ -45,11 +38,7 @@ const Contact = () => {
 
   return (
     <section className="sectionx" id="contact">
-      <Title title="Contact" discrep="You can get in touch with me by sending a message using the form
-          below. Please fill in your details and write your message, and I will
-          receive it via email. Alternatively, you can contact me through one of
-          the links below. Thank you!"
-      />
+      <Title title="Contact"/>
       <div className="contact-me" >
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <input
@@ -75,36 +64,6 @@ const Contact = () => {
             submit
           </button>
         </form>
-        <div className="icons">
-          <a
-            href="https://www.facebook.com/profile.php?id=100047980277283"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faFacebook} className="icon face" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mohamed-abd-elghany-b6b74a281"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faLinkedin} className="icon linked" />
-          </a>
-          <a
-            href="https://github.com/3fhs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faGithub} className="icon git" />
-          </a>
-          <a
-            href="https://wa.me/01023853105"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faWhatsapp} className="icon what" />
-          </a>
-        </div>
       </div>
       <ToastContainer />
     </section>

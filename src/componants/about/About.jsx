@@ -28,22 +28,15 @@ function About() {
       <div className="about-count">
         <div className="about-info">
           <h3 data-aos="fade-right">
-            My name is Mohamed Abdelghany, and I work as a front-end developer
+            My name is Mohamed Abdelghany
           </h3>
 
           <div className="about-info-p">
             <p data-aos="fade-left">
-              I have extensive experience in React.js, allowing me to create
-              modern, interactive, and user-friendly websites. I have successfully
-              worked on various projects, including e-commerce platforms, book
-              stores, and safari stores.
+              front-end developer with a self-taught background in modern web technologies,
             </p>
             <p data-aos="fade-right">
-              I am committed to delivering high-quality work within agreed
-              timelines, ensuring that your project meets all your expectations. I
-              am always open to new projects and collaborations. Feel free to
-              reach out to discuss your next web development project. You can
-              contact me anytime.
+              actively seeking opportunities to leverage my skills in a professional environment.
             </p>
           </div>
 

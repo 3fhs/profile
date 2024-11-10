@@ -22,10 +22,8 @@ function Skills() {
 
   return (
     <section className="sectionx" id="skills">
-      <Title title="my skills" discrep="I can design the interface of websites. I have learned a lot of skills
-          and I am still learning until I gain a lot of experience, and these
-          are some of the skills"
-      />
+      <Title title="my skills"/>
+      
       <div className="section-content">
         <div data-aos="fade-right" className="card">
           <div className="cart-text">

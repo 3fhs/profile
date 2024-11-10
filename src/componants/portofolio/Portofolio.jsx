@@ -17,7 +17,7 @@ function Portofolio() {
   },[])
 
     const [pageNumber, setPageNumber] = useState(1);
-    const currentPage = 3;
+    const currentPage = 4;
 
     const pages = Math.ceil(data.length / currentPage);// دى علشان اعرف عدد الصفحات كام و استخدمت الماس سيل علشان يكون لاقرب عدد صحيح 
     const startPage = (pageNumber - 1) * currentPage; // علشان اجيب انا هبداء بانهى اندكس
@@ -27,11 +27,8 @@ function Portofolio() {
 
   return (
     <section className="sectiony" id="projectes">
-      <Title title="projects" discrep="I created this website as my portfolio to showcase some projects I've
-          worked on using the skills I've learned. Every day, I'm learning
-          something new to improve the quality of my work and provide better
-          service." 
-        />
+      <Title title="projects" />
+
       <div className="port-cart">
         {wepSite.map((item) => (
           <Link
