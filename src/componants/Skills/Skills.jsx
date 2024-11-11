@@ -5,7 +5,7 @@ import css from "../../image/css-svg.webp";
 import js from "../../image/js-svg.svg";
 import bootstrap from "../../image/Bootstrap_logo.svg.png";
 import tailwind from "../../image/Tailwind_CSS_Logo.svg.png";
-import reduxTool from "../../image/redux-9305892-7694091.webp";
+import reduxTool from "../../image/redux-tool-kit.webp";
 import redux from "../../image/redux.svg";
 import react from "../../image/logo-react-svg.svg";
 import Title from "../title-head/Title";

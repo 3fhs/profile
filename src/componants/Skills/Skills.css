@@ -6,7 +6,6 @@
   flex-wrap: wrap;
   border-top: 2px solid #deee;
   padding-top: 40px;
-  padding: 40px 35px 0;
   border-radius: 15px 15px 0 0;
   position: relative;
 }
@@ -46,6 +45,8 @@
 .card .cart-text {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 .card .cart-text h3 {
   height: 45px;

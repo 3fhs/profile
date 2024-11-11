@@ -58,6 +58,9 @@
 .intro-info p {
   text-align: left;
   margin: 5px 10px 10px;
+  display: inline;
+  line-height: 1;
+  min-height: 150px;
 }
 .intro-info p span {
   font-size: 18px;
