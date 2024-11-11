@@ -36,10 +36,35 @@
   padding: 10px 10px;
   flex-wrap: wrap;
 }
-.hello {
-  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
-  font-weight: bold;
+.rotate .rotate-img {
+  border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    border-left: 2px solid #fff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row-reverse;
+    border-left: 2px solid rgb(255, 255, 255);
+    margin-bottom: 5px;
+} 
+.rotate h3 {
+  width: 400px;
+}
+.rotate h3 span {
   font-size: 35px;
+  font-weight: bold;
+}
+.intro-info p {
+  text-align: left;
+  margin: 5px 10px 10px;
+}
+.intro-info p span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  display: flex;
 }
 .intro-conainer .btn {
   color: black;
@@ -47,28 +72,14 @@
   display: flex;
   align-items: center;
   font-size: 20px;
+  font-weight: bold;
   text-transform: capitalize;
   padding: 5px 10px;
   border-radius: 60px;
   cursor: pointer;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 5px;
   min-width: 200px;
-  justify-content: space-around;
-}
-.intro-text {
-  max-width: 400px;
-}
-.intro-text .name {
-    color: #987;
-    font-size: 35px;
-    letter-spacing: 2px;
-}
-.intro-p {
-  font-size: 20px;
-  font-weight: 500;
-  padding-bottom: 20px;
-  color: #ededed;
+  justify-content: space-between;
 }
 .bag {
   width: 35px;
@@ -98,5 +109,13 @@
   }
   .intro-conainer .btn {
     margin: 0 auto;
+  }
+}
+@media (max-width: 460px) {
+  .rotate h3 {
+    max-width: 250px;
+  }
+  .intro-info p {
+    max-width: 250px;
   }
 }

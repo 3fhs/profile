@@ -17,7 +17,7 @@ function Portofolio() {
   },[])
 
     const [pageNumber, setPageNumber] = useState(1);
-    const currentPage = 4;
+    const currentPage = 2;
 
     const pages = Math.ceil(data.length / currentPage);// دى علشان اعرف عدد الصفحات كام و استخدمت الماس سيل علشان يكون لاقرب عدد صحيح 
     const startPage = (pageNumber - 1) * currentPage; // علشان اجيب انا هبداء بانهى اندكس

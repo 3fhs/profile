@@ -1,11 +1,13 @@
 import React, { useEffect } from "react";
 import "./Skills.css";
-import html from "../../image/html.png";
-import css from "../../image/css.webp";
-import js from "../../image/javascript.webp";
-import bootstrap from "../../image/bootstrap.png";
-import tailwind from "../../image/tailwind.png";
-import react from "../../image/react.png";
+import html from "../../image/free-html5-logo-icon-svg.webp";
+import css from "../../image/css-svg.webp";
+import js from "../../image/js-svg.svg";
+import bootstrap from "../../image/Bootstrap_logo.svg.png";
+import tailwind from "../../image/Tailwind_CSS_Logo.svg.png";
+import reduxTool from "../../image/redux-9305892-7694091.webp";
+import redux from "../../image/redux.svg";
+import react from "../../image/logo-react-svg.svg";
 import Title from "../title-head/Title";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // استيراد CSS
@@ -30,16 +32,14 @@ function Skills() {
             <img src={html} alt="it is skills" />
             <h3>HTML5</h3>
           </div>
-          <p>HTML stands for Hyper Text Markup Language</p>
         </div>
 
-        <div className="card">
+        <div data-aos="fade-left" className="card">
           <div className="cart-text">
             <img src={css} alt="it is skills" />
 
             <h3>CSS</h3>
           </div>
-          <p>CSS stands for Cascading Style Sheets</p>
         </div>
 
         <div data-aos="fade-right" className="card">
@@ -47,16 +47,14 @@ function Skills() {
             <img src={js} alt="it is skills" />
             <h3>JavaScript</h3>
           </div>
-          <p>JavaScript Can Change HTML Styles (CSS)</p>
         </div>
 
-        <div className="card">
+        <div data-aos="fade-left" className="card">
           <div className="cart-text">
             <img src={react} alt="it is skills" />
 
             <h3>React JS</h3>
           </div>
-          <p>React is a JavaScript library for building user interfaces</p>
         </div>
 
         <div data-aos="fade-right" className="card">
@@ -65,20 +63,30 @@ function Skills() {
 
             <h3>Bootstrap</h3>
           </div>
-          <p>
-            Bootstrap is a free front-end framework for faster and easier web
-            development
-          </p>
         </div>
 
-        <div className="card">
+        <div data-aos="fade-left" className="card">
           <div className="cart-text">
             <img src={tailwind} alt="it is skills" />
 
             <h3>Tailwind</h3>
           </div>
-          <p>
-            Tailwind CSS is a utility-first CSS framework that allows developers to style applications quickly by using pre-built classes directly in HTML.          </p>
+        </div>
+
+        <div data-aos="fade-right" className="card">
+          <div className="cart-text">
+            <img src={redux} alt="it is skills" />
+
+            <h3>Redux</h3>
+          </div>
+        </div>
+
+        <div data-aos="fade-left" className="card">
+          <div className="cart-text">
+            <img src={reduxTool} alt="it is skills" />
+
+            <h3>Redux Tool/Kit</h3>
+          </div>
         </div>
       </div>
     </section>

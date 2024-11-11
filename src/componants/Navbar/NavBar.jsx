@@ -20,6 +20,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             className="menu"
+            onClick={() => setOpenBurger(false)}
           >
             Home
           </Link>
@@ -30,6 +31,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             className="menu"
+            onClick={() => setOpenBurger(false)}
           >
             About
           </Link>
@@ -40,6 +42,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             className="menu"
+            onClick={() => setOpenBurger(false)}
           >
             Skills
           </Link>
@@ -50,6 +53,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             className="menu"
+            onClick={() => setOpenBurger(false)}
           >
             Projects
           </Link>

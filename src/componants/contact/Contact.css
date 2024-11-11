@@ -57,6 +57,7 @@
   justify-content: center;
   gap: 10px;
   margin: 5px;
+  flex-direction: column;
 }
 .icons a {
   width: 40px;
@@ -92,8 +93,4 @@
   background-color: white;
 }
 @media (max-width: 750px) {
-  .input-text {
-    width: auto;
-    min-width: 300px;
-  }
 }
