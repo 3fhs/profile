@@ -23,9 +23,9 @@
     background-position: center;
     background-size: contain;
     margin: 10px;
-    border-radius: 12px;
     overflow: hidden;
     min-height: 100vh;
+    box-shadow: 0 0 10px 2px #123;
   }
   .section-intro {
     background-image:url("./image/front-end-two.jpg") ;

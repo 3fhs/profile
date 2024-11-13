@@ -22,7 +22,7 @@ const Intro = () => {
       <div className="intro-conainer">
 
           <div className="intro-info">
-
+            <div className="info-top">
               <div className="info-links">
                 <div className="info-img">
                   <img src={me} alt="my logo" className="logo-head"/>
@@ -61,9 +61,7 @@ const Intro = () => {
                   <img src={bag} alt="bag" className="bag"></img> CV Front End
                 </button>
               </div>
-
-              <div className="info-text">
-                <h3>
+              <h3>
                   <Typewriter
                     cursor
                     cursorBlinking
@@ -79,6 +77,9 @@ const Intro = () => {
                     ]}
                   />
                 </h3>
+            </div>
+
+              <div className="info-text">
                 <p>
                   <Typewriter
                       words={[
