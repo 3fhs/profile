@@ -24,7 +24,7 @@
 .intro-info .info-top {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 20px;
     width: 100%;
     padding: 20px 10px;
