@@ -2,16 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
+  height: 100px;
   width: 100%;
   padding: 10px 30px;
-  backdrop-filter: blur(40px);
+  background: #123;
 }
 .logo {
   border-radius: 50%;
   height: 80px;
   width: 80px;
-  box-shadow: 0 0 10px white;
+  box-shadow: 0px 0px 5px red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +100,7 @@
     font-size: 30px;
     cursor: pointer;
     color: white;
-    background-color: #999;
+    background-color: #435b9f;
     padding: 10px;
   }
   .navmenu {
@@ -116,18 +116,14 @@
         justify-content: center;
         flex-direction: column;
         padding: 10px;
-        background: #999;
+        background: #435b9f;
         gap: 5px;
   }
   .navmenu .menu {
     width: 100%;
     cursor: pointer;
     text-transform: capitalize;
-    font-size: 18px;
-    transition: 0.3s;
-    color: white;
-    border-bottom: 3px solid transparent;
-    background-color: #000000;
+    background-color: #0008;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;

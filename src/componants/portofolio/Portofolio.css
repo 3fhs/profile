@@ -1,52 +1,54 @@
-#projectes {
-  position: relative;
+.project-count {
+  width: 100%;
+  height: 100%;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.port-cart {
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 10px;
-}
-.port-cart .cart {
-  position: relative;
-  overflow: hidden;
+.project-count .project-show {
   border-radius: 8px;
-  box-shadow: 0px 0 2px #fff;
-  cursor: pointer;
-  transition: 0.3s;
-  max-width: 325px;
-  background: #ffffff;
-  transform: scale(0.9);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.port-cart .cart:hover {
+.project-show .cart {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.project-show .cart:hover {
   filter: grayscale(1);
   transform: scale(1);
 }
-.port-cart .cart img {
+.cart img {
   width: 100%;
-  height: 190px;
-  border-radius: 8px;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
   cursor: pointer;
   object-fit: cover;
 }
-.cart .cart-inf {
-  background-color: #fff;
+.cart .cart-info {
+  background-color: #123;
   width: 100%;
   padding: 10px;
 }
 
-.cart .cart-inf h3 {
+.cart .cart-info h3 {
   font-size: 18px;
   padding-bottom: 5px;
   font-weight: bold;
-  color: #977;
+  color: #fff;
   text-transform: capitalize;
 }
-.cart .cart-inf p {
-  color: #799;
+.cart .cart-info p {
+  color: #ededed;
   font-size: 16px;
   text-transform: capitalize;
 }

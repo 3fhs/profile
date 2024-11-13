@@ -1,11 +1,14 @@
 .pagination {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     flex-direction: row-reverse;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 20px;
+    backdrop-filter: blur(25px);
+    border-radius: 60px;
+    padding: 0 10px;
+    border: 2px solid #fff;
 }
 .pagination .page {
     font-size: 16px;

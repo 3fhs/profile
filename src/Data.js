@@ -12,6 +12,15 @@ import report from "./photo/report/reporter.png";
 import azan from "./photo/azan/azan.png";
 import volcano from "./photo/volcano/volcano.png";
 
+import html from "./image/free-html5-logo-icon-svg.webp";
+import css from "./image/css-svg.webp";
+import js from "./image/js-svg.svg";
+import bootstrap from "./image/Bootstrap_logo.svg.png";
+import tailwind from "./image/Tailwind_CSS_Logo.svg.png";
+import reduxTool from "./image/redux-tool-kit.webp";
+import redux from "./image/redux.svg";
+import react from "./image/logo-react-svg.svg";
+
 export const data = [
   {
     id: 1,
@@ -119,3 +128,53 @@ export const data = [
   },
 ];
 
+export const skills = [
+  {
+    id: 1,
+    skill: "HTML",
+    star: 3.5,
+    image: html
+  },
+  {
+    id: 2,
+    skill: "CSS",
+    star: 4.5,
+    image: css
+  },
+  {
+    id: 3,
+    skill: "JAVASCRIPT",
+    star: 4.5,
+    image: js
+  },
+  {
+    id: 4,
+    skill: "BOOTSTRAP",
+    star: 3,
+    image: bootstrap
+  },
+  {
+    id: 5,
+    skill: "TAILWIND CSS",
+    star: 5,
+    image: tailwind
+  },
+  {
+    id: 6,
+    skill: "REACT JS",
+    star: 4.5,
+    image: react
+  },
+  {
+    id: 7,
+    skill: "REDUX",
+    star: 4,
+    image: redux
+  },
+  {
+    id: 8,
+    skill: "REDUX TOOL-KIT",
+    star: 5,
+    image: reduxTool
+  },
+]

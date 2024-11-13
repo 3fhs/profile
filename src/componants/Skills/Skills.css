@@ -4,10 +4,12 @@
   justify-content: space-evenly;
   gap: 20px;
   flex-wrap: wrap;
-  border-top: 2px solid #deee;
-  padding-top: 40px;
+  border-top: 5px solid #fff;
+  padding: 40px 30px;
   border-radius: 15px 15px 0 0;
+  margin: 50px 10px;
   position: relative;
+  backdrop-filter: blur(20px);
 }
 .section-content::after ,
 .section-content::before {
@@ -17,7 +19,7 @@
   height: 10px;
   background-color: transparent;
   border-radius: 50%;
-  border: 10px solid #deee;
+  border: 10px solid #fff;
   top: 0;
 }
 .section-content::after {
@@ -36,7 +38,7 @@
   flex-direction: column;
   box-shadow: 0 0 2px white;
   text-align: center;
-  color: #deee;
+  color: #fff;
   width: 245px;
   line-height: 1.8;
   letter-spacing: 1px;
@@ -50,12 +52,12 @@
 }
 .card .cart-text h3 {
   height: 45px;
-  padding: 10px;
-  font-size: 20px;
+  padding: 5px 0;
+  font-size: 18px;
   transition: 0.3s;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
 }
 .card img {
   width: 60px;
@@ -63,6 +65,19 @@
   border-right: 2px solid #fff;
   object-fit: contain;
   padding-right: 5px;
+}
+.skill-star {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 5px 0;
+}
+.skill-star i {
+  color: gold;
+  font-size: 20px;
+  display: flex;
 }
 @media (max-width: 767px) {
   .section-content .card {

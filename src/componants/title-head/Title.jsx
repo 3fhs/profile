@@ -1,13 +1,10 @@
 import React from 'react';
 import "./title.css";
 
-function Title({title, discrep}) {
+function Title({title}) {
   return (
     <div className="head-section">
         <h2>{title}</h2>
-        <p>
-          {discrep}
-        </p>
     </div>
   )
 }

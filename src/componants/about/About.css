@@ -1,31 +1,31 @@
 .about-count {
   display: flex;
   padding: 30px 0;
-  max-width: 900px;
+  width: 100%;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  justify-content: space-between;
   letter-spacing: 1px;
   line-height: 1.6;
 }
-.about-info h3 {
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  text-align: center;
+.about-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 10px;
+  flex-wrap: wrap;
 }
 .about-info-p {
   display: flex;
   align-items: start;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
+  margin-bottom: 10px;
 }
 .about-info-p p {
+  width: 100%;
   max-width: 400px;
   font-size: 20px;
   color: #ededed;
