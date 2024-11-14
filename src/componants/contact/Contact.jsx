@@ -67,7 +67,7 @@ const Contact = () => {
               name="message"
               rows={5}
               placeholder="Write Your Message"
-              style={{ resize: "none", height: "200px" }}
+              style={{ resize: "none", height: "200px", color:'#000' }}
             ></textarea>
             <button type="submit" value="send" className="submit">
               submit
