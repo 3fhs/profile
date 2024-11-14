@@ -5,7 +5,7 @@
   height: 100px;
   width: 100%;
   padding: 10px 30px;
-  background: #123;
+  background: #000;
 }
 .logo {
   border-radius: 50%;
@@ -28,7 +28,7 @@
   font-size: 22px;
   transition: 0.3s;
   color: white;
-  border-bottom: 3px solid transparent;
+  border: 2px solid transparent;
   font-weight: bold;
   text-shadow: 
   1px 1px 0 transparent,  /* تحديد حدود يمين وأسفل */
@@ -39,11 +39,14 @@
   display: flex;
   align-items: start;
   gap: 5px;
+  border-radius: 25px;
 }
+.menu.active,
 .menu:hover {
   color: #111;
   font-weight: bold;
-  border-bottom: 3px solid #435b9f;
+  filter: brightness(0.7);
+  border: 2px solid #fff;
   text-shadow: 
   1px 1px 0 #fff,  /* تحديد حدود يمين وأسفل */
   -1px 1px 0 #fff, /* تحديد حدود يسار وأسفل */
@@ -73,11 +76,11 @@
   height: 30px;
   width: 30px;
 }
-.active {
+/* .active {
   color: var(--main-color);
   padding-bottom: 0.5rem;
   border-bottom: 3px solid var(--main-color);
-}
+} */
 .bi-list , .bi-x-lg {
   display: none;
 }

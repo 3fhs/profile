@@ -42,9 +42,9 @@ const Contact = () => {
         <Title title="Contact"/>
         <div className="contact-me" >
           <div className="contact-text">
-            <span><i className="bi bi-asterisk"></i> You can reach out to me by entering your name and email address, </span>
-            <span><i className="bi bi-asterisk"></i> then clicking the 'Send' button. </span>
-            <span><i className="bi bi-asterisk"></i> I will get back to you as soon as possible. </span>
+            <span><i className="bi bi-asterisk"></i>You can reach out to me by entering your name and email address, </span>
+            <span><i className="bi bi-asterisk"></i>Then clicking the 'Send' button. </span>
+            <span><i className="bi bi-asterisk"></i>I will get back to you as soon as possible. </span>
             <div className="best"> Best regards, </div>
             <div className="name"> Mr. Mohamed Abdelghany. </div>
           </div>

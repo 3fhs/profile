@@ -80,18 +80,20 @@
     background-color: #0005;
     z-index: 1;
   }
-  .back-skills {
-    background-image: url("./image/back-skills.png");
-    background-position: center;
-    background-size: cover;
-  }
-  .back-project {
-    background-image: url("./image/back-project.png");
-    background-position: center;
-    background-size: cover;
-  }
   .back-contact {
     background-image: url("./image/back-countact.jpg");
     background-position: center;
     background-size: cover;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
   }
