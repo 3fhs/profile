@@ -30,11 +30,6 @@
   color: white;
   border: 2px solid transparent;
   font-weight: bold;
-  text-shadow: 
-  1px 1px 0 transparent,  /* تحديد حدود يمين وأسفل */
-  -1px 1px 0 transparent, /* تحديد حدود يسار وأسفل */
-  1px -1px 0 transparent, /* تحديد حدود يمين وأعلى */
-  -1px -1px 0 transparent; /* تحديد حدود يسار وأعلى */  
   padding: 10px;
   display: flex;
   align-items: start;
@@ -43,15 +38,9 @@
 }
 .menu.active,
 .menu:hover {
-  color: #111;
-  font-weight: bold;
-  filter: brightness(0.7);
-  border: 2px solid #fff;
-  text-shadow: 
-  1px 1px 0 #fff,  /* تحديد حدود يمين وأسفل */
-  -1px 1px 0 #fff, /* تحديد حدود يسار وأسفل */
-  1px -1px 0 #fff, /* تحديد حدود يمين وأعلى */
-  -1px -1px 0 #fff; /* تحديد حدود يسار وأعلى */
+  color: #892f2f;
+  background-color: #fff;
+  border: 2px solid red;
 }
 .navmenu .menu img {
   width: 25px;
@@ -61,14 +50,15 @@
   border-radius: 50% 0 50% 0;
 }
 .navbuttom {
-  color: black;
-  font-size: 15px;
+  color: #892f2f;
+  font-size: 22px;
   font-weight: bold;
   background-color: white;
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px;
+  border: 2px solid red;
   border-radius: 2rem;
   cursor: pointer;
 }
@@ -76,11 +66,6 @@
   height: 30px;
   width: 30px;
 }
-/* .active {
-  color: var(--main-color);
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid var(--main-color);
-} */
 .bi-list , .bi-x-lg {
   display: none;
 }
