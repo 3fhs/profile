@@ -2,13 +2,6 @@ import React, { useEffect } from "react";
 import "./About.css";
 import "../Skills/Skills.css";
 import Title from "../title-head/Title";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faGithub,
-  faLinkedin,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
 import me from "../../image/front-end.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // استيراد CSS
@@ -52,28 +45,28 @@ function About() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <FontAwesomeIcon icon={faFacebook} className="icon face" />
+                          <i className="bi bi-facebook"></i>
                         </a>
                         <a
                           href="https://www.linkedin.com/in/mohamed-abd-elghany-b6b74a281"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <FontAwesomeIcon icon={faLinkedin} className="icon linked" />
+                          <i className="bi bi-linkedin"></i>
                         </a>
                         <a
                           href="https://github.com/3fhs"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <FontAwesomeIcon icon={faGithub} className="icon git" />
+                          <i className="bi bi-github"></i>
                         </a>
                         <a
                           href="https://wa.me/01023853105"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <FontAwesomeIcon icon={faWhatsapp} className="icon what" />
+                          <i className="bi bi-whatsapp"></i>
                         </a>
                       </div>
 

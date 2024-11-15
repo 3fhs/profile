@@ -46,9 +46,15 @@
   transition: 0.3s;
   text-transform: capitalize;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .submit:hover {
   background: #1e364f;
+}
+.submit i {
+  font-size: 30px;
 }
 .contact-text {
   max-width: 400px;
@@ -58,8 +64,8 @@
   gap: 10px;
   font-size: 18px;
   font-weight: 500;
-  color: #8f2121;
-  backdrop-filter: blur(30px);
+  color: darkred;
+  backdrop-filter: blur(10px);
   padding: 10px;
   box-shadow: 0 0 10px #123;
   border-radius: 6px;
@@ -70,25 +76,27 @@
   letter-spacing: 1px;
   gap: 10px;
   text-align: left;
+  line-height: 1.8;
 }
 .contact-text span i {
   font-size: 16px;
-  color: #123;
+  color: darkred;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 7px;
 }
 .contact-text .best {
   text-align: center;
   text-decoration: underline;
-  color: #fff;
+  color: #000;
   width: 100%;
 }
 .contact-text .name {
   font-size: 20px;
   font-weight: bold;
   text-transform: capitalize;
-  color: #fff;
+  color: #000;
   width: 100%;
   text-align: center;
 }

@@ -11,6 +11,7 @@ const Intro = () => {
           <div className="intro-info">
             <div className="info-top">
               <h3>
+                  <i className="bi bi-chat"></i>
                   <Typewriter
                     cursor
                     cursorBlinking
@@ -27,6 +28,7 @@ const Intro = () => {
                   />
               </h3>
               <p>
+                <i className="bi bi-chat"></i>
                 <Typewriter
                       words={[
                         "This is my website. I can design websites and have skills in HTML, CSS, Bootstrap, JavaScript, React.js, Redux, Redux Toolkit, and Tailwind CSS. These are the skills I use to build and design interfaces.",

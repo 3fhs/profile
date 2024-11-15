@@ -160,31 +160,29 @@
 .icons a {
   width: 40px;
   height: 40px;
-  position: relative;
 }
-.icons .icon {
-  position: absolute;
+.icons a i {
   font-size: 25px;
   color: #012;
   border-radius: 50% 0 50% 0;
   background-color: #fff;
-  padding: 10px;
+  padding: 5px;
   transition: 0.3s;
   transform: rotateZ(45deg);
 }
-.icons .face:hover {
+.icons .bi-facebook:hover {
   color: white;
   background-color: #6868f8;
 }
-.icons .linked:hover {
+.icons .bi-linkedin:hover {
   color: white;
   background-color: #434394;
 }
-.icons .git:hover {
+.icons .bi-github:hover {
   color: white;
   background-color: #1e364f;
 }
-.icons .what:hover {
+.icons .bi-whatsapp:hover {
   color: white;
   background-color: #059c05;
 }

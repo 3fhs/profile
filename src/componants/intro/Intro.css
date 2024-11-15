@@ -14,13 +14,17 @@
   justify-content: center;
 }
 .intro-info .info-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-    width: 100%;
-    padding: 20px 10px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+  background: #9994;
+}
+.intro-info .info-top i {
+  font-size: 35px;
 }
 .info-top h3 {
     width: 100%;
@@ -28,6 +32,9 @@
     font-size: 40px;
     text-transform: capitalize;
     min-height: 150px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
 }
 .info-top p {
   text-align: left;
@@ -37,6 +44,9 @@
   min-height: 162px;
   max-width: 500px;
   width: 100%;
+  display: flex;
+  align-items: start;
+  gap: 10px;
 }
 .info-top p span {
   font-size: 18px;
