@@ -40,11 +40,13 @@ function Portofolio() {
                 key={item.id}
                 data-aos="fade-dwon"
               >
-                <img src={item.image} alt={item.title} />
-                <div className="cart-info">
-                  <h3> Name : {item.title.slice(0, 20)}..</h3>
-                  <h3> Technical Skills : {item.use.slice(0, 14)}.. </h3>
-                  <p>{item.info.slice(0, 120)}..</p>
+                <div className="effect-show">
+                  <img src={item.image} alt={item.title} />
+                  <div className="cart-info">
+                    <h3> Name : {item.title.slice(0, 20)}..</h3>
+                    <h3> Technical Skills : {item.use.slice(0, 14)}.. </h3>
+                    <p>{item.info.slice(0, 120)}..</p>
+                  </div>
                 </div>
               </Link>
             ))}

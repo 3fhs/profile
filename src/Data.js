@@ -18,7 +18,7 @@ import js from "./image/js-svg.svg";
 import bootstrap from "./image/Bootstrap_logo.svg.png";
 import tailwind from "./image/Tailwind_CSS_Logo.svg.png";
 import reduxTool from "./image/redux-tool-kit.webp";
-import redux from "./image/redux.svg";
+import redux from "./image/redux2.png";
 import react from "./image/logo-react-svg.svg";
 
 export const data = [
@@ -133,48 +133,56 @@ export const skills = [
     id: 1,
     skill: "HTML",
     star: 3.5,
-    image: html
+    image: html,
+    color: "#e44d26"
   },
   {
     id: 2,
     skill: "CSS",
     star: 4.5,
-    image: css
+    image: css,
+    color: "#1572b6"
   },
   {
     id: 3,
     skill: "JAVASCRIPT",
     star: 4.5,
-    image: js
+    image: js,
+    color: "#f5de19"
   },
   {
     id: 4,
     skill: "BOOTSTRAP",
     star: 3,
-    image: bootstrap
+    image: bootstrap,
+    color: "#7c09f8"
   },
   {
     id: 5,
     skill: "TAILWIND CSS",
     star: 5,
-    image: tailwind
+    image: tailwind,
+    color: "#35bef8"
   },
   {
     id: 6,
     skill: "REACT JS",
     star: 4.5,
-    image: react
+    image: react,
+    color: "#000000"
   },
   {
     id: 7,
     skill: "REDUX",
     star: 4,
-    image: redux
+    image: redux,
+    color: "#ef5350"
   },
   {
     id: 8,
     skill: "REDUX TOOL-KIT",
     star: 5,
-    image: reduxTool
+    image: reduxTool,
+    color: "#8ac449"
   },
 ]

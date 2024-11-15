@@ -111,23 +111,33 @@
   width: 100%;
   flex-direction: column;
 } 
+.info-links .info-img .icon-buttom {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 .info-links .btn {
   color: #fff;
   background-color: #123;
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: capitalize;
-  padding: 5px 10px;
+  padding: 10px;
   border-radius: 6px;
   cursor: pointer;
   gap: 5px;
-  min-width: 200px;
   width: 100%;
+  min-height: 50px;
   justify-content: space-between;
   border: none;
   transition: 0.3s;
+}
+.info-links .btn i {
+  font-size: 40px;
 }
 .info-links .btn:hover {
   background-color: #1e364f;
@@ -141,7 +151,7 @@
 .icons {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-evenly;
   gap: 10px;
   width: 100%;
   padding: 5px;
@@ -156,29 +166,27 @@
   position: absolute;
   font-size: 25px;
   color: #012;
-  border-radius: 50%;
+  border-radius: 50% 0 50% 0;
   background-color: #fff;
-  border: 2px solid #ededed;
-  padding: 5px;
+  padding: 10px;
   transition: 0.3s;
-  left: 50%;
-  transform: translateX(-50%);
+  transform: rotateZ(45deg);
 }
 .icons .face:hover {
   color: white;
   background-color: #6868f8;
 }
 .icons .linked:hover {
-  color: #434394;
-  background-color: white;
+  color: white;
+  background-color: #434394;
 }
 .icons .git:hover {
-  color: #1e364f;
-  background-color: white;
+  color: white;
+  background-color: #1e364f;
 }
 .icons .what:hover {
-  color: rgb(5, 156, 5);
-  background-color: white;
+  color: white;
+  background-color: #059c05;
 }
 @media (max-width: 920px) {
   .about-count {

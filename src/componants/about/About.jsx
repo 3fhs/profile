@@ -9,7 +9,6 @@ import {
   faLinkedin,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import bag from "../../image/file-60.png";
 import me from "../../image/front-end.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // استيراد CSS
@@ -46,40 +45,43 @@ function About() {
             <div className="info-links" data-aos="fade-right">
                   <div className="info-img">
                     <img src={me} alt="my logo" className="logo-head"/>
-                    <div className="icons">
-                      <a
-                        href="https://www.facebook.com/profile.php?id=100064105302365"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon icon={faFacebook} className="icon face" />
-                      </a>
-                      <a
-                        href="https://www.linkedin.com/in/mohamed-abd-elghany-b6b74a281"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon icon={faLinkedin} className="icon linked" />
-                      </a>
-                      <a
-                        href="https://github.com/3fhs"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon icon={faGithub} className="icon git" />
-                      </a>
-                      <a
-                        href="https://wa.me/01023853105"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FontAwesomeIcon icon={faWhatsapp} className="icon what" />
-                      </a>
+                    <div className="icon-buttom">
+                      <div className="icons">
+                        <a
+                          href="https://www.facebook.com/profile.php?id=100064105302365"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FontAwesomeIcon icon={faFacebook} className="icon face" />
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/in/mohamed-abd-elghany-b6b74a281"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FontAwesomeIcon icon={faLinkedin} className="icon linked" />
+                        </a>
+                        <a
+                          href="https://github.com/3fhs"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FontAwesomeIcon icon={faGithub} className="icon git" />
+                        </a>
+                        <a
+                          href="https://wa.me/01023853105"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FontAwesomeIcon icon={faWhatsapp} className="icon what" />
+                        </a>
+                      </div>
+
+                      <button className="btn" onClick={clickOpenPdf}>
+                        <i className="bi bi-filetype-pdf"></i> Download Cv
+                      </button>
                     </div>
                   </div>
-                  <button className="btn" onClick={clickOpenPdf}>
-                    <img src={bag} alt="bag" className="bag"></img> Download My Cv
-                  </button>
             </div>
 
 

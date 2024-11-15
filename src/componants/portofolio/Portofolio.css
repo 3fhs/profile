@@ -26,10 +26,31 @@
   padding: 5px;
   background: #123;
   border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
-.project-show .cart:hover {
-  filter: grayscale(1);
-  transform: scale(1);
+.project-show .cart .effect-show::after,
+.project-show .cart .effect-show::before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 0%;
+  transition: 0.3s;
+  background-color: #9994;
+}
+.project-show .cart .effect-show::after {
+  top: 0;
+  right: 0;
+  border-left: 2px solid #fff;
+}
+.project-show .cart .effect-show::before {
+  bottom: 0;
+  left: 0;
+  border-right: 2px solid #fff;
+}
+.project-show .cart .effect-show:hover::after,
+.project-show .cart .effect-show:hover::before {
+  width: 100%;
 }
 .cart img {
   width: 100%;

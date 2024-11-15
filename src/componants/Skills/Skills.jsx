@@ -29,7 +29,7 @@ function Skills() {
                 <div style={{display:'flex',flexDirection:'column'}}>
                   <div className="star" style={{ display: "flex", alignItems: "center", justifyContent: "right", gap: "2px"}}>
                   </div>
-                  <h3>{item.skill}</h3>
+                  <h3 style={{color: `${item.color}`}}>{item.skill}</h3>
                 </div>
               </div>
             </div>
