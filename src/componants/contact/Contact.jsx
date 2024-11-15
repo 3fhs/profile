@@ -53,20 +53,20 @@ const Contact = () => {
             <input
               type="text"
               className="your input-text"
-              placeholder="Write Your Name ?"
+              placeholder="Write Your Name ..."
               name="your-name"
             />
             <input
               type="email"
               className="email input-text"
-              placeholder="Write Your Email"
+              placeholder="Write Your Email ..."
               name="your-email"
             />
             <textarea
               className="msg input-text"
               name="message"
               rows={5}
-              placeholder="Write Your Message"
+              placeholder="Write Your Message ..."
               style={{ resize: "none", height: "200px", color:'#000' }}
             ></textarea>
             <button type="submit" value="send" className="submit">
