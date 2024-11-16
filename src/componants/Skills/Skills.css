@@ -43,6 +43,7 @@
   letter-spacing: 1px;
   flex-grow: 1;
   min-height: 100px;
+  overflow: hidden;
 }
 .card .cart-text {
   display: flex;
@@ -53,11 +54,11 @@
 .card .cart-text h3 {
   align-items: center;
   display: flex;
-  font-size: 30px;
+  font-size: 26px;
   height: 45px;
   justify-content: right;
   padding: 5px 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 .card img {
   border-right: 3px solid #9996;

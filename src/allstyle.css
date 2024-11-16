@@ -19,7 +19,7 @@
 
   section {
     color: white;
-    background-image: url("./image/sky.jpg");
+    background-image: url("./image/stars-stars.webp");
     background-position: center;
     background-size: contain;
     margin: 10px;
@@ -64,9 +64,9 @@
   .sectionx, 
   .sectiony {
     background-color: #fff ;
-    background-position: right;
-    background-size: auto;
-    background-image: url("./image/star.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./image/stars-stars.webp");
     position: relative;
   }
   .sectionx::after, 

@@ -11,7 +11,7 @@
   border-radius: 50%;
   height: 80px;
   width: 80px;
-  box-shadow: 0px 0px 5px red;
+  box-shadow: 0px 0px 5px 1px #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,9 +38,8 @@
 }
 .menu.active,
 .menu:hover {
-  color: #892f2f;
+  color: #000;
   background-color: #fff;
-  border: 2px solid red;
 }
 .navmenu .menu img {
   width: 25px;
@@ -50,7 +49,7 @@
   border-radius: 50% 0 50% 0;
 }
 .navbuttom {
-  color: #892f2f;
+  color: #000;
   font-size: 22px;
   font-weight: bold;
   background-color: white;
@@ -58,7 +57,6 @@
   align-items: center;
   gap: 10px;
   padding: 10px;
-  border: 2px solid red;
   border-radius: 2rem;
   cursor: pointer;
 }
